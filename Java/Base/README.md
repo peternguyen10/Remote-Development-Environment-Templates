@@ -14,10 +14,10 @@ This template is open to anyone, from students who want to learn the Java progra
 
 - [Windows 10 Version 2004 or higher](<https://support.microsoft.com/en-us/windows/get-the-windows-10-october-2020-update-7d20e88c-0568-483a-37bc-c3885390d212>)
 - [Windows Subsystem for Linux (WSL2)](<https://docs.microsoft.com/en-us/windows/wsl/install-win10>)
-- [Install Visual Studio Code](<https://code.visualstudio.com/>)
-- [Install Docker Desktop/Engine](<https://www.docker.com/products/docker-desktop>)
-- [Install Visual Studio Code Docker extension](<https://code.visualstudio.com/docs/containers/overview>)
-- [Install Visual Studio Code Remote Development Extension](<https://code.visualstudio.com/docs/remote/remote-overview>)
+- [Visual Studio Code](<https://code.visualstudio.com/>)
+- [Docker Desktop/Engine](<https://www.docker.com/products/docker-desktop>)
+- [Visual Studio Code Docker](<https://code.visualstudio.com/docs/containers/overview>)
+- [Visual Studio Code Remote Development](<https://code.visualstudio.com/docs/remote/remote-overview>)
 - See <https://code.visualstudio.com/docs/remote/containers-tutorial> for a complete guide on how to setup remote containers (recommended for beginners)
 
 ## QuickStart
