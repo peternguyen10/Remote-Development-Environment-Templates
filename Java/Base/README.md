@@ -8,7 +8,7 @@ This folder contains configuration files to instruct Docker on how to build the 
 
 ## Usage
 
-This template is open to anyone, from students who want to learn the Java programming language to development teams looking to streamline their development environment setup. Docker builds the entire environment within minutes, so there is no need to manually install anything. Simply deploy a container for each user and, when necessary, modify the config files and update the containers (advanced). There is no need to manually update each user's environment.
+This template is open to anyone, from students who want to learn the Java programming language to development teams looking to streamline their development environment setup. Docker builds the entire environment within minutes, so there is no need to manually install and configure dependencies within the containerized workspace. Simply deploy a container for each user and, when necessary, modify the config files and update the each user's workspace (advanced). Updating the users' development environments is a simple process that involes modifying the dependencies specfied by the config files and rebuilding the container.
 
 ## Requirements
 
