@@ -1,6 +1,6 @@
 # Java Base Template
 
-The Java Base Template is a set of files that allows the user to develop within a fully isolated Java environment. This template utilizes [Visual Studio Code’s](<https://code.visualstudio.com/learn>) Remote – Containers [extension](<https://marketplace.visualstudio.com/VSCode>) in addition to [Docker containers](<https://www.docker.com/resources/what-container>).
+The Java Base Template is a set of files that allows the user to develop within a fully isolated remote Java environment. This template utilizes [Visual Studio Code’s](<https://code.visualstudio.com/learn>) Remote – Containers [extension](<https://marketplace.visualstudio.com/VSCode>) in addition to [Docker containers](<https://www.docker.com/resources/what-container>).
 
 ## Contents
 
@@ -8,7 +8,7 @@ This folder contains configuration files to instruct Docker on how to build the 
 
 ## Usage
 
-This template is open to anyone, from students who want to learn the Java programming language to development teams looking to streamline their development environment setup. Docker builds the entire environment within minutes, so there is no need to manually install and configure dependencies within the containerized workspace. Simply deploy a container for each user and, when necessary, modify the config files and update the each user's workspace (advanced). Updating the users' development environments is a simple process that involes modifying the dependencies specfied by the config files and rebuilding the container.
+This template is open to anyone, from students who want to learn the Java programming language to development teams looking to streamline their development environment setup. Docker builds the entire environment within minutes, so there is no need to manually install and configure dependencies within the containerized workspace. Simply deploy a container for each user and, when necessary, modify the config files and update all workspaces simultaneously (advanced). Updating the users' development environments is a simple process that involes modifying the dependencies specfied by the config files and rebuilding the container.
 
 ## Requirements
 
@@ -24,7 +24,7 @@ This template is open to anyone, from students who want to learn the Java progra
 
 1. Clone this repository from GitHub
 
-2. Reopen this folder (your/download/location/path/Remote-Development-Environment-Templates/Java/Base) in VS Code
+2. Reopen your local copy of this folder (/Java/Base) in VS Code
 
 3. Open the [command pallette](<https://code.visualstudio.com/docs/getstarted/userinterface#:~:text=The%20most%20important%20key%20combination,provides%20access%20to%20many%20commands.>) (press F1 or Ctrl+Shift+P)
 
@@ -32,7 +32,7 @@ This template is open to anyone, from students who want to learn the Java progra
 
 5. Select this folder. Docker should start building the container, and there will be a progress bar to the bottom right of the window
 
-6. Open Test.java and run the code (press F5, hit "run" right above the "main" method, or navigate to Run > Start Debugging)
+6. Once the container is built, open Test.java and run the code (press F5, hit "run" right above the "main" method (only applicable if the Java extension is installed), or navigate to Run > Start Debugging)
 
 ## How to Use
 
