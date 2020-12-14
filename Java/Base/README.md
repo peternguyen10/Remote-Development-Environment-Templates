@@ -36,4 +36,14 @@ This template is open to anyone, from students who want to learn the Java progra
 
 ## How to Use
 
+Copy the .devcontainer folder into your project's root directory. VS Code may prompt you to reopen the folder in a container. If you are satisfied with the container configuration, select "Reopen in Container."
+
+### Devcontainer Properties
+
+VS Code needs to be instructed on how to build the container. This can include the base image variant, the container path for the Java runtime, the name of the workspace folder, any VS Code extension, etc. The properties can be modified in the devcontainer.json file (./.devcontainer/devcontainer.json). A full list of container properties can be found on <https://code.visualstudio.com/docs/remote/devcontainerjson-reference>.
+
+### Dockerfile Properties
+
+The Dockerfile is a script that Docker uses to build the container. It can be modified to run any Linux commands during the image build process. This can include the installation of dependnecies, tools, platforms, etc. For more information, go to <https://docs.docker.com/>.
+
 ## Examples
