@@ -1,4 +1,4 @@
-{
+{	//adding comments
 	"name": "Java",
 	"build": {
 		"dockerfile": "Dockerfile",
